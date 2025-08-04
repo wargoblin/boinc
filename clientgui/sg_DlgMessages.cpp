@@ -469,7 +469,7 @@ bool CDlgMessages::Create( wxWindow* parent, wxWindowID id, const wxString& capt
 
     Freeze();
 
-    SetBackgroundStyle(wxBG_STYLE_CUSTOM);
+    SetBackgroundStyle(wxBG_STYLE_PAINT);
 
 #if TEST_BACKGROUND_WITH_MAGENTA_FILL
     SetBackgroundColour(wxColour(255, 0, 255));

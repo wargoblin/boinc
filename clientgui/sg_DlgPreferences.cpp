@@ -1166,7 +1166,7 @@ bool CDlgPreferences::Create( wxWindow* parent, wxWindowID id, const wxString& c
 
     Freeze();
 
-    SetBackgroundStyle(wxBG_STYLE_CUSTOM);
+    SetBackgroundStyle(wxBG_STYLE_PAINT);
 
     SetForegroundColour(*wxBLACK);
 #if TEST_BACKGROUND_WITH_MAGENTA_FILL
